@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- STYLES -->
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/custom-checkbox.css" />
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,23 +24,30 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>F8 Zoom Day 10</title>
+    <title>Custom Checkbox</title>
   </head>
   <body>
-    <div class="main-container">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a target="_blank" href="./Schoolar Pages/courses.html"
-            >Scholars Page</a
-          >
-        </li>
-        <li class="nav-item">
-          <a target="_blank" href="./custom-checkbox.html">Custom Checkbox</a>
-        </li>
-        <li class="nav-item">
-          <a href=""><span class="loader"></span></a>
-        </li>
-      </ul>
+    <div class="wrapper">
+      <div class="container">
+        <div class="header">
+          <span></span>
+          <span>Checkbox</span>
+          <span>Ratio</span>
+          <span>Switch</span>
+        </div>
+        <div class="custom-checkbox">
+          <span>On/Off</span>
+          <label for="custom-checkbox" class="checkbox">
+            <input type="checkbox" hidden id="custom-checkbox" />
+          </label>
+          <label for="ratio" class="ratio">
+            <input type="checkbox" hidden id="ratio" />
+          </label>
+          <label for="switch" class="switch">
+            <input type="checkbox" hidden id="switch" />
+          </label>
+        </div>
+      </div>
     </div>
   </body>
 </html>
