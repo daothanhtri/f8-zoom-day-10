@@ -7,6 +7,7 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/shop.css" />
+    <link rel="stylesheet" href="../css/responsive.css" />
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,7 +34,85 @@
           <div class="container header-container">
             <!-- START HEADER -->
             <div class="header">
-              <!-- LOGO -->
+              <!-- START NAV DRAWER -->
+              <label for="drawer" class="nav-open">
+                <i class="fa-solid fa-bars"></i>
+              </label>
+              <input type="checkbox" name="drawer" id="drawer" hidden />
+              <label for="drawer" class="drawer-overlay"></label>
+              <div class="nav-drawer">
+                <label for="drawer" class="nav-close">
+                  <i class="fa-solid fa-xmark"></i>
+                </label>
+                <ul class="drawer-list">
+                  <li>
+                    <a href="">Home</a>
+                    <ul class="drawer-submenu">
+                      <li><a href="">Home version one</a></li>
+                      <li><a href="">Home version Two</a></li>
+                      <li><a href="">Home video background</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="">Course</a>
+                    <ul class="drawer-submenu">
+                      <li><a href="">Course 2 Column</a></li>
+                      <li>
+                        <a href="../Schoolar Pages/courses.html"
+                          >Course 3 Column</a
+                        >
+                      </li>
+                      <li><a href="">Course Details</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="">Events</a>
+                    <ul class="drawer-submenu">
+                      <li><a href="">Event List</a></li>
+                      <li><a href="">Event Grid</a></li>
+                      <li><a href="">Event Single</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="">Pages</a>
+                    <ul class="drawer-submenu">
+                      <li><a href="">Our teachers</a></li>
+                      <li><a href="">teachers profile</a></li>
+                      <li><a href="">About Us</a></li>
+                      <li><a href="">Error page</a></li>
+                      <li><a href="">FAQ Page</a></li>
+                      <li><a href="">Login</a></li>
+                      <li><a href="">sign up</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="">Portfolio</a>
+                    <ul class="drawer-submenu">
+                      <li><a href="">portfolio 2 column</a></li>
+                      <li><a href="">portfolio 3 column</a></li>
+                      <li><a href="">portfolio 4 column</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="">Blog</a>
+                    <ul class="drawer-submenu">
+                      <li><a href="">Blog</a></li>
+                      <li><a href="">Blog details</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="">Shop</a>
+                    <ul class="drawer-submenu">
+                      <li><a href="">Shop Page</a></li>
+                      <li><a href="">Shop Details</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="../Schoolar Pages/contact.html">Contact</a></li>
+                </ul>
+              </div>
+              <!-- END NAV DRAWER -->
+
+              <!-- START LOGO -->
               <a href="">
                 <img
                   src="../img/img-logo.png"
@@ -41,7 +120,8 @@
                   class="logo"
                 />
               </a>
-              <!-- NAVIGATION -->
+              <!-- END LOGO -->
+              <!-- START NAVIGATION -->
               <ul class="nav">
                 <li>
                   <a href="">Home</a>
@@ -107,6 +187,8 @@
                 </li>
                 <li><a href="../Schoolar Pages/contact.html">Contact</a></li>
               </ul>
+              <!-- END NAVIGATION -->
+
               <!-- START SEARCH AND CART BUTTON -->
               <div class="action-wrapper">
                 <button class="action-btn">

@@ -68,9 +68,10 @@ select {
 }
 
 .container {
-  width: 117rem;
+  width: 1170px;
   max-width: 100%;
-  min-height: 10rem;
+  min-height: 100px;
+  padding: 0 20px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -84,7 +85,7 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 4rem;
+  padding-top: 40px;
 }
 
 .header-content {
